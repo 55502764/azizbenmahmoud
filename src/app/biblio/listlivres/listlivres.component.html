@@ -1,0 +1,10 @@
+<h2 class="text-center pt-3">Liste des Livres</h2>
+<div class="container">
+<div class="row">
+<ul *ngFor="let lv of livres">
+    <li class="col-4 pt-3"  >
+    <aziz-livre [book]="lv" > </aziz-livre>
+    </li>
+</ul>
+</div>
+</div>
